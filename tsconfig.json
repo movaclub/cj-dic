@@ -1,0 +1,12 @@
+﻿{
+  "compilerOptions": {
+    "experimentalDecorators": true, // to decorate classes directly, etc
+    "target": "es2015",
+    "module": "ESNext",
+    "lib": ["dom", "es2015", "es2015.collection"],
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "strictNullChecks": false,
+    "strict": true
+  }
+}

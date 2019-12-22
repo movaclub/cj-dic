@@ -1,0 +1,43 @@
+
+button {
+    border-radius: 1px;
+    min-height: 33px;
+    background-color: bisque;
+    color: saddlebrown;
+}
+.cj-menu {
+    flex-basis: 88%;
+    min-height: 22px;
+    margin-top: 3px;
+    background-size: 1.583em;
+    padding: 7px;
+}
+
+.cj-site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 69%;
+    margin: auto;
+}
+
+.cj-content{
+    flex:1;
+    flex-basis: 55%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    padding: 9px;
+    font-size: .88621em;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#root {
+    text-align: center;
+}
