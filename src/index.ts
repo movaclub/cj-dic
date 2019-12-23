@@ -1,5 +1,4 @@
 ﻿import {customElement, html, LitElement} from "lit-element";
-// import { CjMenu } from "./views/cj-menu";
 import { CjContent } from "./cj-content";
 
 // @ts-ignore
@@ -8,7 +7,6 @@ import { CjContent } from "./cj-content";
 export class CjRoot extends LitElement {
 
   constructor(
-    // readonly cjMenu: CjMenu = new CjMenu(),
     readonly cjContent: CjContent = new CjContent()
   ) {
     super();
@@ -22,7 +20,6 @@ export class CjRoot extends LitElement {
 
   protected render() {
     return html`
-<!--        <cj-menu .cjMenu class="cj-menu"></cj-menu>-->
         <cj-content .cjContent></cj-content>
     `;
   }
