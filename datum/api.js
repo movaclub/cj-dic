@@ -7,7 +7,7 @@ module.exports = (app) => {
     res.status(200).json({c2zi: Object.keys(c2zi.c2zi).length, zi2c: Object.keys(zi2c.zi2c).length}); // {"c2zi":68587,"zi2c":74663}
   });
 
-  app.get('/api/c2zi/:code',  (req, res) => {
+  app.get('/api/c2zi/:code',  (req, res) => { console.log('REQ:', req.params.code); console.log('RES:', {code: req.params.code, zi: c2zi.c2zi[req.params.code]});
     res.status(200).json({code: req.params.code, zi: c2zi.c2zi[req.params.code]}); // http://localhost:3000/api/c2zi/aa -> {"code":"aa","zi":["昌","昍"]}
   });
 

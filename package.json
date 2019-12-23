@@ -1,7 +1,7 @@
 {
   "name": "cj-dic",
   "version": "1.0.0",
-  "description": "",
+  "description": "CJ Lookup Dictionary",
   "main": "index.js",
   "scripts": {
     "build": "parcel build src/index.html",
@@ -9,7 +9,7 @@
     "dev": "node lbundler.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["lit-html", "rxjs", "typescript", "Input Method", "Cang Jie"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@types/events": "^3.0.0",
+    "axios": "^0.19.0",
+    "axios-observable": "^1.1.2",
     "lit-element": "^2.2.1",
     "lit-html": "^1.1.2",
     "rxjs": "^6.5.3",
@@ -31,4 +33,3 @@
     "text": "add to package.json - a fix to get it work with Parcel. This makes it to not remove the class syntax. But it'll hurt older browsers"
   }
 }
-

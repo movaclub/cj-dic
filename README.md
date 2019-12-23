@@ -1,5 +1,7 @@
 # cj-dic
-The SPA of CangJie Dictionary built on top of ``lit-html`` and _typescript_ etc. API for this applicaiton may be found in _datum_ folder (Node/Express).
+The SPA of CangJie Dictionary built on top of ``lit-element`` and _typescript_ (or _pure JS_ if you will) etc. API for this applicaiton may be found in _datum_ folder (Node/Express).
+
+
  
 ## Installation notes
 
@@ -10,3 +12,5 @@ Everything's about __Parcel__ bundler usage for creating a dev environment other
 ## Few bits on dev environment
 
 It seems like __Parcel__ itself provides __no__ _build-and-watch_ mode like f.i. ``nodemon node .`` and the like, so an excellent hint may be borrowed from <a href="https://github.com/parcel-bundler/parcel/issues/1131">here</a>. In case of this small application check ``dev`` entry in the package.json (an extra JS script).
+
+And, yes, use `yarn`, it's way faster `npm`!
