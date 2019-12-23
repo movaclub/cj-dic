@@ -1,6 +1,11 @@
 # cj-dic
 The SPA of CangJie Dictionary built on top of ``lit-element`` and _typescript_ (or _pure JS_ if you will) etc. API for this applicaiton may be found in _datum_ folder (Node/Express).
 
+![ABC &rarr; 字](https://github.com/movaclub/cj-dic/blob/master/code2zi.png)
+
+
+![ABC &rarr; 字](https://github.com/movaclub/cj-dic/blob/master/zi2code.png)
+
 
  
 ## Installation notes
